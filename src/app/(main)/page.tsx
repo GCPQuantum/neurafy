@@ -7,7 +7,7 @@ import { Sponsors } from '@/components/Sponsors'
 export default function Home() {
   return (
     <>
-    <video  className="absolute top-100 w-full " autoplay="true" loop="true"  muted="true" playsinline="true">
+    <video  className="absolute top-100 w-full " autoPlay loop  muted playsInline>>
        <source src="https://assets-global.website-files.com/65560fe120333714fc15b546/655b77c0e04a3a504aae722e_temaplte-neurafy-video-03-transcode.mp4" />
      </video>
       <Hero />
